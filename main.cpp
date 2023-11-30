@@ -1,7 +1,6 @@
-#include <iostream>
-
 int main() {
-    #ifdef ASD
-    std::cout << "ASD is defined: " << ASD;
+    #ifdef CICD_ASD
+    return (int)CICD_ASD;
     #endif
+    return -1;
 }

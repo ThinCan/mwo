@@ -1,3 +1,0 @@
-C:/Users/k/Desktop/mwo/git/build/CMakeFiles/cicdtest.dir
-C:/Users/k/Desktop/mwo/git/build/CMakeFiles/edit_cache.dir
-C:/Users/k/Desktop/mwo/git/build/CMakeFiles/rebuild_cache.dir

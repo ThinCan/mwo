@@ -1,14 +1,8 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
+#include "../lib.hpp"
 
-#include <cstdlib>
 
-TEST_CASE("CicdTest - ReturnCodeTest") {
-    #ifdef CICD_ASD
-    int returnCode = std::system("cicdtest");
-    CHECK(returnCode == CICD_ASD);
-    #else
-    int returnCode = std::system("cicdtest");
-    CHECK(returnCode == -1);
-    #endif
+TEST_CASE("Test lib_add") {
+    CHECK(add(1, 15) == 16);
 }
